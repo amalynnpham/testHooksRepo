@@ -13,7 +13,7 @@ jobs:
     steps:
     - name: Trigger Central Code Scan
       env:
-        CENTRAL_REPO_URL: https://api.github.com/repos/your-org/central-scanning-repo/dispatches
+        CENTRAL_REPO_URL: https://api.github.com/repos/amalynnpham/ASHDemo/dispatches
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         curl -X POST \
@@ -21,4 +21,4 @@ jobs:
              -H "Authorization: Bearer $GITHUB_TOKEN" \
              -H "X-GitHub-Api-Version: 2022-11-28" \
              $CENTRAL_REPO_URL \
-             -d '{"event_type":"external-repo-push","client_payload":{"repo":"https://github.com/amalynnpham/ASHDemo"}}'
+             -d '{"event_type":"external-repo-push","client_payload":{"repo":"https://github.com/amalynnpham/testHooksRepo"}}'

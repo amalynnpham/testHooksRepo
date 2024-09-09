@@ -1,0 +1,27 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "testmodel",
+    "owner": "amalynnpham",
+    "description": "testing threat-dragon",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.2.0",
+        "cells": [],
+        "description": "uh what does this do?"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "amalynnpham",
+    "threatTop": 0
+  }
+}
